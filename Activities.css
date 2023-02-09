@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+  }
+  .Gauche,.Droite{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+  }
+  .centre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .center button{
+    height: 40px;
+    width: 40px;
+  }
